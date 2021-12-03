@@ -5,7 +5,6 @@ import java.util.*;
  * Builds a HMM from file training data and runs Viterbi on either user input or another pair of test files to tag the parts of speech of the test words
  *
  * @author Logan Chang, PS5, CS10, 20F
- * @author Ashna Kumar, PS5, CS10, 20F
  */
 public class HMM {
     HashMap<String, HashMap<String, Double>> observationScores; //scores for transitions in form {tag -> {observed word -> score}}
